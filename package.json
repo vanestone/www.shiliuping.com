@@ -1,0 +1,19 @@
+{
+  "name": "www.shiliuping.com",
+  "version": "1.0.0",
+  "description": "Personal blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanestone/www.shiliuping.com.git"
+  },
+  "author": "vanestone@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanestone/www.shiliuping.com/issues"
+  },
+  "homepage": "https://github.com/vanestone/www.shiliuping.com#readme"
+}
