@@ -1,2 +1,2 @@
 # www.shiliuping.com
-A Personal blog by VuePress.
+A Personal blog by VuePress!
