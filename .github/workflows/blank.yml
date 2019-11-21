@@ -1,16 +1,17 @@
 name: CI
 
-on: 
-  push:
-    branches: 
-      - master
+on: [push]
 
 jobs:
-  hello_job:
-    strategy:
-      matrix:
-        os: [macOS-latest, windows-latest, ubuntu-latest]
-    runs-on: ${{ matrix.os }}
+  build:
+
+    runs-on: ubuntu-latest
+
     steps:
-      - name: 'echo hello OS'
-        run: 'Hello ${{ matrix.os }}'
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
