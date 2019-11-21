@@ -1,0 +1,16 @@
+name: CI
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  hello_job:
+    strategy:
+      matrix:
+        os: [macOS-latest, windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: 'echo hello OS'
+        run: 'Hello ${{ matrix.os }}'
