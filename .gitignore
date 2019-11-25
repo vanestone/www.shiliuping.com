@@ -3,3 +3,5 @@
 *.log
 dist
 /docs/.vuepress/dist/
+yarn.lock
+package-lock.json
